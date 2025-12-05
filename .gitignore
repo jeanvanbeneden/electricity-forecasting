@@ -1,0 +1,54 @@
+# Data 
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models et checkpoints
+outputs/*.pt
+outputs/*.pth
+outputs/*.pkl
+*.h5
+*.onnx
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key
+credentials.json
+config.ini
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Logs
+*.log
+logs/
